@@ -1,0 +1,15 @@
+dashboard_tools: "../dashboard-tools/bin/dashboard-tools"
+credentials_json: "../dashboard-credentials/credentials-jfyi.json"
+state_file: "./portalcount.state"
+log_dir: "./log"
+public_dir: "./public"
+regions:
+  Moscow:
+    rectangle: 55.570581,37.337036,55.912273,37.87674
+    name: Москва
+    level: 4
+    full_diff:
+      - RES,8
+    kill_list:
+      - RES,8
+    history_size: 3
